@@ -21,7 +21,7 @@ func main() {
 
 }
 
-func greeting(name, message string) (salution string) {
+func Greeting(name, message string) (salution string) {
 	salution = fmt.Sprintf("%s, %s", name, message)
 	return
 }
